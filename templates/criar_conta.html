@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Adicionar um novo item</title>
+    <link rel="stylesheet" href="../static/criar_conta_style.css">
+</head>
+<body>
+    <main>
+    <h1>Criar conta</h1>
+    <form action="/create-item" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required>
+
+        <label for="Telefone">Telefone: </label>
+        <input type="tel" id="Telefone" name="Telefone" required>
+
+        <label for="Senha">Senha: </label>
+        <input type="password" id="Senha" name="Senha" required>
+
+        <button type="submit">Adicionar</button>
+    </form>
+    </main>
+</body>
+</html>

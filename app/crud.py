@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-import app.models as models
-import app.schemas as schemas
+import models as models
+import schemas as schemas
 
 def get_pc(db: Session, pc_id: int):
     return db.query(models.PC).filter(models.PC.id == pc_id).first()
