@@ -1,14 +1,10 @@
 # Projeto Final - Programação Web
 
-Um projeto web desenvolvido com FastAPI, SQLAlchemy e Jinja2, oferecendo uma API para gerenciar PCs, com endpoints para criar, listar e deletar PCs. Inclui autenticação básica com OAuth2 e senhas hash.
+Este é um projeto web desenvolvido com FastAPI, SQLAlchemy e Jinja2. Ele fornece uma API para gerenciar PCs, com endpoints para criar, listar e deletar PCs. Além disso, inclui autenticação básica com OAuth2 e senhas hash.
 
-## 🚀 Começando
-
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+## 🚀 Instalação e Configuração
 
 ### 📋 Pré-requisitos
-
-De que coisas você precisa para instalar o software e como instalá-lo?
 
 ```
 Python 3.7+
@@ -18,11 +14,9 @@ Docker (opcional)
 
 ### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
 1. Clone o repositório:
    ```
-   git clone <   git clone <(https://github.com/laceerdag/projeto-final-programacaoWeb.git>>
+   git clone <   git clone <https://github.com/laceerdag/projeto-final-programacaoWeb.git>
    cd projeto-final-programacaoweb
    ```
 
@@ -32,27 +26,10 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
    ```
 
 3. Configure o banco de dados (será criado automaticamente na primeira execução):
-   ```
-   python -m app.main
-   ```
+   
+  O banco de dados SQLite é usado neste projeto. Ele será criado automaticamente na primeira execução do aplicativo.
 
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
-
-```
-pytest tests/
-```
-
-### ⌨️ E testes de estilo de codificação
-
-```
-flake8 app/
-```
+## ⚙️ Executando o Projeto
 
 ## 📦 Implantação
 
