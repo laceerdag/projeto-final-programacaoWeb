@@ -22,7 +22,7 @@ Uma série de exemplos passo-a-passo que informam o que você deve executar para
 
 1. Clone o repositório:
    ```
-   git clone <   git clone <[url-do-repositorio](https://github.com/laceerdag/projeto-final-programacaoWeb.git>>
+   git clone <   git clone <(https://github.com/laceerdag/projeto-final-programacaoWeb.git>>
    cd projeto-final-programacaoweb
    ```
 
