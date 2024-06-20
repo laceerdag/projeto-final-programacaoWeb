@@ -29,8 +29,6 @@ Docker (opcional)
    
   O banco de dados SQLite é usado neste projeto. Ele será criado automaticamente na primeira execução do aplicativo.
 
-## ⚙️ Executando o Projeto
-
 ## 📦 Implantação
 
 ### Localmente
