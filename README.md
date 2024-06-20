@@ -56,20 +56,13 @@ docker-compose up --build
 * [Uvicorn](https://www.uvicorn.org/) - Servidor ASGI
 * [Docker](https://www.docker.com/) - Containerização
 
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
 ## 📌 Versão
 
 Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
 
-## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início.
-
-* **Gabriel Costa** - *Trabalho Inicial - back end* - [gabrielcosta]([https://github.com/linkParaPerfil](https://github.com/laceerdag))
-* **Lucas ** - *Front-end* - [Lucas]([https://github.com/linkParaPerfil](https://github.com/lucasrso?tab=overview&from=2024-06-01&to=2024-06-20))
+* **Gabriel Costa** - *Trabalho Inicial - back end* - [gabrielcosta](https://github.com/laceerdag)
+* **Lucas** - *Front-end* - [Lucas](https://github.com/lucasrso?tab=overview&from=2024-06-01&to=2024-06-20)
 
 
 ## 📄 Licença
@@ -78,7 +71,7 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://gith
 
 ## 🎁 Agradecimentos
 
-* Agradeço ao Professor Lucas por me fazer perder sono 🫂;
+* Agradeço ao Professor Lucas por me fazer perder o sono 🫂;
 
 ---
 ⌨️ com ❤️ por [Gabriel](https://github.com/laceerdag)) 😊
