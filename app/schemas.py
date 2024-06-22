@@ -2,8 +2,8 @@ from pydantic import BaseModel
 
 
 class PCBase(BaseModel):
-    nome: str
-    descricao: str
+    name: str
+    description: str
 
 
 class PCCreate(PCBase):

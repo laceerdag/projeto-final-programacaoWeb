@@ -13,10 +13,10 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 fake_users_db = {
     "teste@example.com": {
-        "username": "user@example.com",
+        "username": "teste@ceub.com",
         "full_name": "Teste",
         "email": "teste@example.com",
-        "hashed_password": pwd_context.hash("password"),
+        "hashed_password": pwd_context.hash("123456"),
         "disabled": False,
     }
 }

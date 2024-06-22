@@ -50,17 +50,45 @@ def delete_item(request: Request):
         context={'request': request}
     )
 
-@app.get('/', response_class=HTMLResponse)
+@app.get('/login', response_class=HTMLResponse)
 def index(request: Request):
     return templates.TemplateResponse(
-        name='index.html',
+        name='login.html',
         context={'request': request}
     )
 
-@app.get('/', response_class=HTMLResponse)
+@app.get('/create_item', response_class=HTMLResponse)
 def index(request: Request):
     return templates.TemplateResponse(
-        name='index.html',
+        name='create_item.html',
+        context={'request': request}
+    )
+
+@app.get('/edit_item', response_class=HTMLResponse)
+def index(request: Request):
+    return templates.TemplateResponse(
+        name='edit_item.html',
+        context={'request': request}
+    )
+
+@app.get('/update_item', response_class=HTMLResponse)
+def index(request: Request):
+    return templates.TemplateResponse(
+        name='update_item.html',
+        context={'request': request}
+    )
+
+@app.get('/pc_lista', response_class=HTMLResponse)
+def index(request: Request):
+    return templates.TemplateResponse(
+        name='pc_lista.html',
+        context={'request': request}
+    )
+
+@app.get('/pc_detalhe', response_class=HTMLResponse)
+def index(request: Request):
+    return templates.TemplateResponse(
+        name='pc_detalhe.html',
         context={'request': request}
     )
 

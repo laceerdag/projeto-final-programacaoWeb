@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../static/update_item_style.css">
+    <title>Atualizar PC</title>
 </head>
 <body>
-    
+
+<main>
+<h1>PC's encontrados: </h1>
+
+<ul id="item-list">
+    <li>Dell Inspiron All in one 24p</li>
+    <li>iMac M1 24p </li>
+    <li> . </li>
+</ul>
+
+<input type="text" id="new-item" placeholder="Novo item">
+<button class="btn" onclick="addItem()">Adicionar Item</button>
+
+<script>
+    function addItem() {
+        const newItemInput = document.getElementById('new-item');
+        const newItemText = newItemInput.value.trim();
+
+        if (newItemText !== '') {
+            const itemList = document.getElementById('item-list');
+
+            const newItem = document.createElement('li');
+            newItem.textContent = newItemText;
+
+            itemList.appendChild(newItem);
+
+            newItemInput.value = '';
+            newItemInput.focus();
+        }
+    }
+</script>
+</main>
 </body>
 </html>
