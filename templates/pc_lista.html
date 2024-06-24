@@ -8,11 +8,12 @@
     <main>
         <h1> Pc's localizados </h1>
         <table>
+            <form action="/pc_lista/{{ pcs }}" method="post">
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Nome do PC</th>
-                    <th> Data de entrada </th>
+                    <th> Descrição </th>
                 </tr>
             </thead>
             <tbody>
@@ -20,11 +21,13 @@
                     <td>1</td>
                     <td> Dell Inspiron All in one 24p </td>
                     <td> 25/05/2024 </td>
+                    <img src="C:\Users\lucas\OneDrive\Imagens\Capturas de tela\Captura de tela 2024-06-23 190326.png" alt="Descrição da imagem">
                 </tr>
                 <tr>
                     <td>2</td>
                     <td> iMac M1 24p </td>
                     <td> 12/06/2024 </td>
+                    <img src="C:\Users\lucas\OneDrive\Imagens\Capturas de tela\Captura de tela 2024-06-23 190640.png" alt="Descrição da imagem">
                 </tr>
         </table>
 
@@ -34,8 +37,14 @@
 
         </button>
 
+        <br>
+        
         <button>
             <a href="/delete_item"> Deletar um PC </a>
+        </button>
+
+        <button>
+            <a href="/update_item"> Editar um PC </a>
         </button>
     </main>
     
