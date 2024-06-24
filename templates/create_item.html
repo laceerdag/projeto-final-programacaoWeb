@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
      <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static' , path='create_item_style.css') }}"> -->
       <link rel="stylesheet" type="text/css" href="../static/create_item_style.css">
+
+     <link rel="stylesheet" type="text/css" href="../static/create_item_style.css">
+
     <title>Adicionar um novo item</title>
 
 </head>
 <body>
 <main>
+
     <h1>Adicionar Novo PC</h1>
+
+    <h1>Adicionar Novo Item</h1>
+
     <form action="/create-item" method="post">
         <label for="name">Nome:</label>
         <input type="text" id="name" name="name" required>
         <label for="quantity">Quantidade:</label>
         <input type="number" id="quantity" name="quantity" required>
+
         <button>
 
             <a href="/pc_lista" type="submit">Adicionar </a>
 
             </button>
+
+        <button type="submit">Adicionar</button>
+
     </form>
 </main>
 </body>
